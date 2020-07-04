@@ -32,5 +32,4 @@ except KeyboardInterrupt:
     print('\nDone.')
 
 
-    print('hey frack you')
-    
+    print('hey')
