@@ -4,19 +4,19 @@
 import time
 
 try:
-#Display the program's instructions.
-print('press enter to begin. Afterwards, press enter to "click" the stop watch')
-print('press Ctrl-C to quit.')
+    #Display the program's instructions.
+    print('press enter to begin. Afterwards, press enter to "click" the stop watch')
+    print('press Ctrl-C to quit.')
 
-input() #press Enter to begin
-print('Started.')
+    input() #press Enter to begin
+    print('Started.')
 
-startTime = time.time() # get the first lap's start time
-lastTime = startTime
+    startTime = time.time() # get the first lap's start time
+    lastTime = startTime
 
-lapNum = 1
+    lapNum = 1
 
-#TODO: Start tracking the lap times.
+    #TODO: Start tracking the lap times.
 
     while True:
         input()
