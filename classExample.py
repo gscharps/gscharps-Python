@@ -19,6 +19,9 @@ p1.myfunc()
 #   parameter of any function in the class. 
 
 class Box:
+    #the __init__ function is called automatically everytime
+    #the class is being used to create a new object, and thus
+    #is like a standard constructor. 
     def __init__(stupidBox, length, width):
         stupidBox.length = length
         stupidBox.width = width
