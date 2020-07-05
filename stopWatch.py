@@ -3,6 +3,7 @@
 
 import time
 
+try:
 #Display the program's instructions.
 print('press enter to begin. Afterwards, press enter to "click" the stop watch')
 print('press Ctrl-C to quit.')
@@ -16,7 +17,7 @@ lastTime = startTime
 lapNum = 1
 
 #TODO: Start tracking the lap times.
-try:
+
     while True:
         input()
         lapTime = round(time.time() - lastTime, 2)
